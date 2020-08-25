@@ -5,7 +5,7 @@ header('Content-Type: application/json');
 $status = "OK";
 
 $data = (object) [
-    'date' => date("d/m/Y h:i:s"),
+    'date' => gmdate("d/m/Y H:i:s"),
     'status' => $status
 ];
 
